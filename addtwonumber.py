@@ -1,7 +1,7 @@
 def add_two_numbers(a, b):
     return a + b
 
-# Example usage
+# chay lenh
 if __name__ == "__main__":
     num1 = float(input("Nhap so thu nhat vao: "))
     num2 = float(input("Nhap so thu hai vao: "))
