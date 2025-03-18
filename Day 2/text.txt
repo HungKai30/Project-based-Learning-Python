@@ -1,0 +1,14 @@
+Thực hành 
+1. Nhập vào một số nguyên, kiểm tra xem số đó là số âm, dương hay bằng 0 và in kết quả tương ứng. 
+2. Nhập vào tuổi của một người, nếu người đó từ 18 tuổi trở lên thì in "Adult", ngược lại in "Minor". 
+3. Nhập vào một số thực, chuyền nó thành số nguyên và in kết quả. 
+4. Nhập vào một số nguyên từ người dùng, nếu không phải số nguyên thì in ra thông báo lỗi "Please enter a valid number." 
+5. Viết hàm kiểm tra xem một số có phải là số nguyên tố hay không. 
+6. Khai báo một danh sách và sử dụng hàm len() để in ra số phần tử trong danh sách. 
+7. Khai báo một danh sách số và sử dụng hàm max() để in ra giá trị lớn nhất trong danh sách. 
+8. Tạo một danh sách các số, sau đó thêm một số mới vào cuối danh sách và in kết quả. 
+9. Tạo một danh sách chứa tên của 5 người, in ra tên thứ ba trong danh sách. 
+10. Tạo một dictionary chứa thông tin tên và tuổi của một người, in ra tên và tuổi của người đó. 
+11. Tạo một dictionary chứa tên các học sinh và điểm của họ, in ra điểm của một học sinh cụ thể. 
+12. Dùng vòng lặp for để in ra các số từ 1 đến 10. 
+13. Dùng vòng lặp while để in ra các số chẵn từ 0 đến 20.

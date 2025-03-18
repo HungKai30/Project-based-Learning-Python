@@ -5,6 +5,6 @@ def check_age(age):
         return "Minor"
 
 # Example usage
-age = int(input("Enter the age: "))
+age = int(input("nhap tuoi: "))
 status = check_age(age)
-print(f"The person is an {status}.")
+print(f"nguoi nay la {status}.")
