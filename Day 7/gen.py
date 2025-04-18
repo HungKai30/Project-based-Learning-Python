@@ -1,0 +1,6 @@
+gen = (x for x in range(16) if x % 3 == 0)
+first_value = next(gen)
+second_value = next(gen)
+print(gen)
+print(first_value)  
+print(second_value)  
