@@ -1,0 +1,52 @@
+TÓM TẮT NỘI DUNG POWERPOINT "UNIT TEST"
+
+- MỤC TIÊU:
+  • Hiểu rõ vai trò của Unit Test
+  • Viết test với unit test và pytest
+  • Nâng cao với mocking
+  • Áp dụng Unit Test vào CI/CD
+
+- MỤC LỤC CHÍNH:
+  • Tổng quan về unit test
+  • Unit test trong Python
+  • Mocking & Isolation
+  • Unit Test và CI/CD
+
+- TỔNG QUAN VỀ UNIT TEST:
+  • Unit Test là kiểm thử đơn vị nhỏ nhất (hàm/phương thức).
+  • Mục tiêu: đảm bảo logic đúng với mọi trường hợp.
+  • Lợi ích: phát hiện lỗi sớm, hỗ trợ refactor, CI/CD, tài liệu sống.
+  • TDD (Test Driven Development): Viết test → Code → Refactor.
+  • Nguyên tắc viết test: FIRST (Fast, Independent, Repeatable, Self-validating, Timely).
+
+- UNIT TEST TRONG PYTHON:
+  • unittest: thư viện chuẩn, có sẵn, được hỗ trợ trong IDE.
+    Ưu điểm: không cần cài thêm, phổ biến.
+    Nhược điểm: cú pháp dài dòng, khó mở rộng.
+  • pytest: đơn giản, hỗ trợ fixture, parametrize test.
+    So sánh: pytest dễ viết, rõ ràng hơn unittest.
+
+- MOCKING & ISOLATION:
+  • Isolation = cô lập logic test khỏi yếu tố ngoài (API, DB, file,...).
+  • Mock = mô phỏng các thành phần ngoài để:
+    - Test nhanh hơn
+    - Không phụ thuộc bên ngoài
+    - Kiểm soát được đầu ra
+  • unittest.mock hỗ trợ mock trong Python.
+  • Tips:
+    - Patch đúng path import
+    - Tránh mock quá nhiều
+    - Test cả trường hợp mock sai
+
+- UNIT TEST TRONG CI/CD:
+  • Là bước kiểm tra đầu tiên trong pipeline
+  • Ngăn bug lọt vào staging/prod
+  • Duy trì chất lượng code, tự tin refactor
+  • Tips tích hợp:
+    - Test nhanh (<1s mỗi test)
+    - 100% pass trước khi merge
+    - Tách test unit và integration
+    - Ghi log, báo cáo rõ ràng
+
+- BÀI TẬP THỰC HÀNH:
+  • Link: https://github.com/band-deha/vju-teach/blob/main/Unit_Test_Exercises.ipynb
