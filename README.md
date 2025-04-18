@@ -14,7 +14,5 @@ This project is a comprehensive introduction to Python programming, aimed at beg
 - Object-Oriented Programming (OOP)
 - Basic data structures (lists, dictionaries, sets, tuples)
 
----
 
-## 📁 Project Structure
 
