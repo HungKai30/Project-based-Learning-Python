@@ -64,3 +64,6 @@ merge_time = time.time() - start_time
 
 print(f"Thời gian chạy của Bubble Sort: {bubble_time:.6f} giây")
 print(f"Thời gian chạy của Merge Sort: {merge_time:.6f} giây")
+
+#update
+#update full
